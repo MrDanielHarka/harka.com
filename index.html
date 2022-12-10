@@ -140,5 +140,12 @@
         </b>
       </div>
     </main>
+    <script>
+      const a = document.getElementsByTagName('a');
+      for (let i = 0; i < a.length; i++) {
+        a[i].addEventListener('mousedown', e => e.target.click());
+        a[i].addEventListener('touchstart', e => e.target.click());
+      }
+    </script>
   </body>
 </html>
