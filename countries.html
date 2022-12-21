@@ -35,232 +35,66 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
     <link rel="stylesheet" href="style.css" />
     <style>
+      main {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+      }
       table {
         border-collapse: collapse;
         margin: auto;
+        display: block;
+        overflow: auto;
+        border-spacing: 0;
+        border-radius: 7px;
       }
-      td {
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        padding: 0.25rem;
+      th {
+        background-color: #8bc34a;
       }
-      tbody td:first-of-type {
+      tr:nth-of-type(2n) {
+        background-color: #eef7e3;
+      }
+      td:first-of-type {
         font-size: 10px;
       }
     </style>
   </head>
   <body>
     <h1><a href="/"> harka.com</a> / Countries</h1>
-    <main>
-      <table>
-        <thead>
-          <tr>
-            <th></th>
-            <th>Daniel</th>
-            <th>Sara</th>
-            <th>Together &lt;3</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>Albania</td>
-            <td>Albania</td>
-            <td>Albania</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Andorra</td>
-            <td>Austria</td>
-            <td>Austria</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>Austria</td>
-            <td>Belgium</td>
-            <td>Belgium</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>Belgium</td>
-            <td>Croatia</td>
-            <td>Croatia</td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>Bosnia – Herzegovina</td>
-            <td>Czechia</td>
-            <td>Czechia</td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>Bulgaria</td>
-            <td>Denmark</td>
-            <td>Denmark</td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>Croatia</td>
-            <td>France</td>
-            <td>France</td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td>Czechia</td>
-            <td>Germany</td>
-            <td>Germany</td>
-          </tr>
-          <tr>
-            <td>9</td>
-            <td>Denmark</td>
-            <td>Greece</td>
-            <td>Greece</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>Egypt</td>
-            <td>Hungary</td>
-            <td>Hungary</td>
-          </tr>
-          <tr>
-            <td>11</td>
-            <td>Estonia</td>
-            <td>Italy</td>
-            <td>Italy</td>
-          </tr>
-          <tr>
-            <td>12</td>
-            <td>France</td>
-            <td>Kenya</td>
-            <td>Kosovo</td>
-          </tr>
-          <tr>
-            <td>13</td>
-            <td>Germany</td>
-            <td>Kosovo</td>
-            <td>Montenegro</td>
-          </tr>
-          <tr>
-            <td>14</td>
-            <td>Greece</td>
-            <td>Montenegro</td>
-            <td>Norway</td>
-          </tr>
-          <tr>
-            <td>15</td>
-            <td>Hungary</td>
-            <td>Norway</td>
-            <td>Poland</td>
-          </tr>
-          <tr>
-            <td>16</td>
-            <td>Italy</td>
-            <td>Poland</td>
-            <td>Portugal</td>
-          </tr>
-          <tr>
-            <td>17</td>
-            <td>Kosovo</td>
-            <td>Portugal</td>
-            <td>Romania</td>
-          </tr>
-          <tr>
-            <td>18</td>
-            <td>Macedonia</td>
-            <td>Romania</td>
-            <td>Serbia</td>
-          </tr>
-          <tr>
-            <td>19</td>
-            <td>Montenegro</td>
-            <td>Serbia</td>
-            <td>Slovakia</td>
-          </tr>
-          <tr>
-            <td>20</td>
-            <td>Netherlands</td>
-            <td>Slovakia</td>
-            <td>Slovenia</td>
-          </tr>
-          <tr>
-            <td>21</td>
-            <td>Norway</td>
-            <td>Slovenia</td>
-            <td>Sweden</td>
-          </tr>
-          <tr>
-            <td>22</td>
-            <td>Poland</td>
-            <td>Sweden</td>
-            <td>Ukraine</td>
-          </tr>
-          <tr>
-            <td>23</td>
-            <td>Portugal</td>
-            <td>Ukraine</td>
-            <td>United Kingdom</td>
-          </tr>
-          <tr>
-            <td>24</td>
-            <td>Romania</td>
-            <td>United Kingdom</td>
-            <td>Vatican</td>
-          </tr>
-          <tr>
-            <td>25</td>
-            <td>Serbia</td>
-            <td>Vatican</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>26</td>
-            <td>Slovakia</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>27</td>
-            <td>Slovenia</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>28</td>
-            <td>Spain</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>29</td>
-            <td>Sweden</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>30</td>
-            <td>Switzerland</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>31</td>
-            <td>Ukraine</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>32</td>
-            <td>United Kingdom</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>33</td>
-            <td>Vatican</td>
-            <td></td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-    </main>
+    <main></main>
+    <script>
+      const xhr = new XMLHttpRequest();
+      xhr.open(
+        'GET',
+        'https://sheets.googleapis.com/v4/spreadsheets/1dVf5v9ELB8Bq0bbUf-Hp4GIbbq_6wOxa3rLHphAScPQ/values/A1:D?key=AIzaSyC8JPIK1FueADy2eHFGY6FxA3IwmHtMi_E'
+      );
+      xhr.send();
+      xhr.onload = function () {
+        if (xhr.status === 200) {
+          const response = JSON.parse(xhr.responseText),
+            values = response.values,
+            table = document.createElement('table'),
+            thead = document.createElement('thead'),
+            tbody = document.createElement('tbody'),
+            columnNumber = values[0].length; // Number of columns in the table
+          values.forEach((row, index) => {
+            const tr = document.createElement('tr');
+            for (let i = 0; i < columnNumber; i++) {
+              const element = index === 0 ? 'th' : 'td';
+              const cellElement = document.createElement(element);
+              cellElement.textContent = row[i] || '';
+              tr.appendChild(cellElement);
+            }
+            index === 0 ? thead.appendChild(tr) : tbody.appendChild(tr);
+          });
+          table.appendChild(thead);
+          table.appendChild(tbody);
+          document.getElementsByTagName('main')[0].appendChild(table);
+        } else {
+          console.error(xhr.responseText);
+        }
+      };
+    </script>
   </body>
 </html>
